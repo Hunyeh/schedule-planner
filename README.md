@@ -11,7 +11,7 @@ Allows you to schedule out your work day so you dont miss any deadlines.
 * JavaScript
 
 ## Website
- https://hunyeh.github.io/schedule-planner/
+  https://hunyeh.github.io/schedule-planner/
 
 ## Contribution 
 Made with ❤️ by [Hunter]
