@@ -3,7 +3,7 @@
 
 
 ## Purpose
-Allows you to schedult out your work day so you dont miss any deadlines.
+Allows you to schedule out your work day so you dont miss any deadlines.
 
 ## Built With
 * HTML
