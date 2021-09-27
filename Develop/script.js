@@ -2,7 +2,10 @@
 var timeArray = ['8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm'];
 var militaryTime = [8, 9, 10, 11, 12, 13, 14, 15, 16];
 var getCurrentHour = moment().hour()
-console.log(getCurrentHour)
+var currentDate = moment().format('dddd MMM Do')
+
+// dicsplay the current date on top of the page
+document.getElementById('currentDay').innerHTML = currentDate;
 
 // for loop looping through the time
 for (var i = 0; i < militaryTime.length; i++) {
@@ -24,10 +27,11 @@ for (var i = 0; i < militaryTime.length; i++) {
 // event listener when the save button is clicked its saved to local storage
 $(".saveBtn").on("click", function() {
       var index = $(this).attr("data-id")
-      console.log(timeArray[index])
 
-      console.log($("#" + timeArray[index]).val()  )
+      console.log(timeArray[index])
+      console.log($("#" + timeArray[index]).val())
 
       localStorage.setItem(index, $("#" + timeArray[index]).val())
 });
 
+ 
